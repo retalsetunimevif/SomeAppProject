@@ -1,0 +1,8 @@
+
+/venv
+./venv
+venv/
+*.pyc
+pycache/
+staticfiles/
+backend/backend/__pycache__/
