@@ -6,3 +6,4 @@ venv/
 pycache/
 staticfiles/
 backend/backend/__pycache__/
+backend/backend/localsettings.py
