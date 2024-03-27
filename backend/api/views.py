@@ -4,8 +4,9 @@ from rest_framework.response import Response
 from rest_framework import status, generics
 from rest_framework.authtoken.models import Token
 from django.contrib.auth import authenticate
-from models import CustomUser
-from serializers import UserSerializer
+from api.models import CustomUser
+from api.serializers import UserSerializer
+
 
 # Create your views here.
 class RegisterView(generics.CreateAPIView):
