@@ -83,7 +83,7 @@ from backend import localsettings
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': localsettings.BD_INFO,
+        'NAME': localsettings.DB_INFO,
         'USER': localsettings.USER_INFO,
         'PASSWORD': localsettings.PASS_INFO,
         'HOST': localsettings.HOST_INFO,
